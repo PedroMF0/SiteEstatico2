@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/menunav.css">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+    <title>Contato</title>
+</head>
+<header>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <header>
+        <h1>Entre em Contato Conosco</h1>
+        <p>Use esta seção para fazer sua avaliação</p>
+    </header>
+    <section class="contact-form">
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <div class="reason-inputs">
+                <div class="reason-title">
+                    <label for="reason">Motivo para contato:</label>
+                </div>
+            
+                <div class="reason-group">
+                    <div class="reason-inputs">
+                        <input id="sugestao" type="radio" name="reason" value="Sugestão">
+                        <label for="sugestao">Sugestão</label>
+                    </div>
+            
+                    <div class="reason-inputs">
+                        <input id="elogio" type="radio" name="reason" value="Elogio">
+                        <label for="elogio">Elogio</label>
+                    </div>
+            
+                    <div class="reason-inputs">
+                        <input id="reclamacao" type="radio" name="reason" value="Reclamação">
+                        <label for="reclamacao">Reclamação</label>
+                    </div>
+            
+                    <div class="reason-inputs">
+                        <input id="others" type="radio" name="reason" value="Outros">
+                        <label for="others">Outros</label>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Loja de Bikes 2023 by Pedro Morales</p>
+    </footer>
+</body>
+</html>
